@@ -1,10 +1,10 @@
 /* Authors:Om Raheja & Isha Sawant
- 
- * Filename:Allocate_memory.h
- 
+
+ * Filename:write_pattern.h
+
  * Date:7th October,2018
- 
- * Description: Header file for allocate_memory.c
+
+ * Description: Header file for write_pattern.c
 
 */
 
@@ -14,7 +14,9 @@
 
 
 
+
 #include<stdint.h>
+
 
 /* ************************************************************************************************************************* */
 /*                                                FUNCTION PROTOTYPES                                                        */
@@ -22,5 +24,5 @@
 
 
 
+void write_pattern();
 
-void allocate_memory();

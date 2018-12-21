@@ -1,12 +1,14 @@
 /* Authors:Om Raheja & Isha Sawant
- 
- * Filename:Allocate_memory.h
- 
+
+ * Filename:functions.h
+
  * Date:7th October,2018
- 
- * Description: Header file for allocate_memory.c
+
+ * Description: Header file that contains all the global variables used in the utility
 
 */
+
+
 
 /* ************************************************************************************************************************* */
 /*                                             C STANDARD LIBRARY HEADERS                                                    */
@@ -16,11 +18,19 @@
 
 #include<stdint.h>
 
-/* ************************************************************************************************************************* */
-/*                                                FUNCTION PROTOTYPES                                                        */
+/* ************************************************************************************************************************* */
+/*                                                 GLOBAL VARIABLES                                                          */
 /* ************************************************************************************************************************* */
 
 
 
 
-void allocate_memory();
+
+
+uint32_t *address;
+
+uint32_t size;
+
+uint32_t x;
+
+uint32_t r;

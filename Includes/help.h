@@ -1,10 +1,10 @@
 /* Authors:Om Raheja & Isha Sawant
  
- * Filename:Allocate_memory.h
- 
+ * Filename:help.h
+
  * Date:7th October,2018
- 
- * Description: Header file for allocate_memory.c
+
+ * Description: Header file for help.c
 
 */
 
@@ -14,13 +14,12 @@
 
 
 
+
 #include<stdint.h>
 
-/* ************************************************************************************************************************* */
+
+/* ************************************************************************************************************************* */
 /*                                                FUNCTION PROTOTYPES                                                        */
 /* ************************************************************************************************************************* */
 
-
-
-
-void allocate_memory();
+void help();
