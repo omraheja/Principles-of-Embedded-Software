@@ -1,24 +1,28 @@
 /* Authors:Om Raheja & Isha Sawant
  * Filename:Allocate_memory.c
  * Date:2nd October,2018
- * Description: Allocates the memory size specified by the user. This function also checks if memory was allocated properly or not by checking the null pointer.
+ * Description: Allocates the memory size specified by the user.
+   This function also checks if memory was allocated properly or not by checking the null pointer.
 */
 
-/*************************************************************************************************************************/
+/* ************************************************************************************************************************* */
+/*                                             C STANDARD LIBRARY HEADERS                                                    */
+/* ************************************************************************************************************************* */
 
-/*CODE*/
-
-/*************************************************************************************************************************/
-
-
-/* C Standard Library Headers */
 #include<stdio.h>
 #include<stdlib.h>
 #include<stdint.h>
 
-/* Headers */
+/* ************************************************************************************************************************* */
+/*                                                     HEADERS                                                               */
+/* ************************************************************************************************************************* */
+
 #include "../inc/functions.h"
 #include "../inc/allocate_memory.h"
+
+/* ************************************************************************************************************************* */
+/*                                              ALLOCATE MEMORY FUNCTION                                                     */
+/* ************************************************************************************************************************* */
 
 /* This function allocates memory specified by the user for the application */
 void allocate_memory()
@@ -35,12 +39,10 @@ void allocate_memory()
 	printf("Address in allocate memory is %p\n",address);
 	if (address != NULL)   //to check if memory has been allocated or not
 	{
-		
 		/*Display the allocated memory*/
 		for (int i = 0; i < size; i++)
 		{
-			printf("addr is %p\n", &address[i]);
+			printf("Address is %p\n", &address[i]);
 		}
-
 	}
 }
