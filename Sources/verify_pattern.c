@@ -19,7 +19,7 @@
 #include<stdint.h>
 
 /* Headers */
-#include "../inc/functions.h"
+#include "../Includes/functions.h"
 
 /*Verify pattern function verifies the generated pattern with the one generated in the write pattern function*/
 void verify_pattern()

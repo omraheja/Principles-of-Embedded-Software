@@ -2,9 +2,9 @@
 
 objects = allocate_memory.o free_memory.o display_memory.o write_memory.o invert_block.o write_pattern.o verify_pattern.o help.o main.o exit.o
 
-CFLAGS = -I../inc/
+CFLAGS = -I../Includes/
 
-vpath %.h ../inc/
+vpath %.h ../Includes/
 
 target: $(objects)
 	gcc -o target $(objects) $(CFLAGS)

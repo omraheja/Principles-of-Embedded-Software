@@ -13,7 +13,7 @@
 
 /* C Standard Library Headers */
 
-#include "../inc/exit.h"
+#include "../Includes/exit.h"
 /*Exits the application */
 
 void om_exit(void)

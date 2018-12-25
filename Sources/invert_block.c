@@ -17,7 +17,7 @@
 #include<time.h>
 
 /* Headers */
-#include "../inc/functions.h"
+#include "../Includes/functions.h"
 
 /* 'numb' is the number of 32 bit words to be inverted */
 void invert_block()

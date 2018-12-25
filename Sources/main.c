@@ -18,16 +18,16 @@
 #include<stdint.h>
 
 /* Headers */
-#include "../inc/functions.h"
-#include "../inc/help.h"
-#include "../inc/allocate_memory.h"
-#include "../inc/free_memory.h"
-#include "../inc/display_memory.h"
-#include "../inc/write_memory.h"
-#include "../inc/invert_block.h"
-#include "../inc/write_pattern.h"
-#include "../inc/verify_pattern.h"
-#include "../inc/exit.h"
+#include "../Includes/functions.h"
+#include "../Includes/help.h"
+#include "../Includes/allocate_memory.h"
+#include "../Includes/free_memory.h"
+#include "../Includes/display_memory.h"
+#include "../Includes/write_memory.h"
+#include "../Includes/invert_block.h"
+#include "../Includes/write_pattern.h"
+#include "../Includes/verify_pattern.h"
+#include "../Includes/exit.h"
 
 typedef struct function_list
 {

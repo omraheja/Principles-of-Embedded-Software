@@ -16,7 +16,7 @@
 #include<string.h>
 #include<stdlib.h>
 #include<stdint.h>
-#include "../inc/functions.h"
+#include "../Includes/functions.h"
 
 /* Free Function used to free the memory allocated for the user application */
 void free_memory()

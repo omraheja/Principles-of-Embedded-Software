@@ -19,7 +19,7 @@
 #include<stdint.h>
 
 /* Headers */
-#include "../inc/functions.h"
+#include "../Includes/functions.h"
 
 /*Write pattern is used to write a pseudo random number on a specific address specified by the user */
 void write_pattern()

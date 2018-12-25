@@ -17,15 +17,15 @@
 #include<stdlib.h>
 
 /* Headers */
-#include "../inc/functions.h"
-#include "../inc/allocate_memory.h"
-#include "../inc/write_memory.h"
-#include "../inc/display_memory.h"
-#include "../inc/write_pattern.h"
-#include "../inc/verify_pattern.h"
-#include "../inc/invert_block.h"
-#include "../inc/exit.h"
-#include "../inc/free_memory.h"
+#include "../Includes/functions.h"
+#include "../Includes/allocate_memory.h"
+#include "../Includes/write_memory.h"
+#include "../Includes/display_memory.h"
+#include "../Includes/write_pattern.h"
+#include "../Includes/verify_pattern.h"
+#include "../Includes/invert_block.h"
+#include "../Includes/exit.h"
+#include "../Includes/free_memory.h"
 
 /* structure declaration */
 typedef struct function_list

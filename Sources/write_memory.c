@@ -17,7 +17,7 @@
 #include<stdint.h>
 
 /* Headers */
-#include "../inc/functions.h"
+#include "../Includes/functions.h"
 
 /* Write memory function writes the hex number on an address specified by the user */
 void write_memory()
